@@ -50,15 +50,19 @@
         </dependency>
 
         <dependency>
-          <groupId>android</groupId>
+          <groupId>com.android.support</groupId>
           <artifactId>android</artifactId>
-          <version>4.4.2_r4</version>
+          <version>19</version>
+          <scope>system</scope>
+          <systemPath>${ANDROID_HOME}/platforms/android-19/android.jar</systemPath>
         </dependency>
 
         <dependency>
-          <groupId>android.test.uiautomator</groupId>
+          <groupId>com.android.support</groupId>
           <artifactId>uiautomator</artifactId>
-          <version>4.4.2_r4</version>
+          <version>19</version>
+          <scope>system</scope>
+          <systemPath>${ANDROID_HOME}/platforms/android-19/uiautomator.jar</systemPath>
         </dependency>
 
         <dependency>

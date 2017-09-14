@@ -1,6 +1,8 @@
 .idea
 .iml
 out
+bin
+bootstrap/bin/*
 bootstrap/local.properties
 bootstrap/.classpath
 node_modules
